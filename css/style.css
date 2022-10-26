@@ -15,14 +15,14 @@
    margin-top: 3.75rem;
    position: relative;
 }
-.top{
+#top{
     font-size: 1.25rem;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     z-index: 999;
 }
-.bottom{
+#bottom{
     font-size: 1.25rem;
     position: absolute;
     bottom: 0;
@@ -36,10 +36,13 @@
     object-fit: cover;
 }
 
-.first-img{
-    display:block ;
+img{
+    display: none;
 }
 
-img{
+.open{
+    display: block;
+}
+.close{
     display: none;
 }
