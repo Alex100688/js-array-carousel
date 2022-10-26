@@ -36,13 +36,8 @@
     object-fit: cover;
 }
 
-img{
-    display: none;
-}
+
 
 .open{
     display: block;
-}
-.close{
-    display: none;
 }
