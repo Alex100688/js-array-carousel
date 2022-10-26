@@ -35,3 +35,11 @@
     max-width: 25rem;
     object-fit: cover;
 }
+
+.first-img{
+    display:block ;
+}
+
+img{
+    display: none;
+}
