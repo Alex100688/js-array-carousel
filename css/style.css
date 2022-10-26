@@ -7,6 +7,16 @@
 .container-carousel{
     max-width: 68.75rem;
     display: flex;
+    margin: auto;
     justify-content: center;
     align-items: center;
+}
+.item{
+   margin-top: 2.5rem;
+   position: relative;
+}
+
+
+img{
+    width: 100%;
 }
